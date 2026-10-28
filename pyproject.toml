@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "env-guard"
+version = "0.1.0"
+description = "Lightweight CLI & pre-commit hook that scans repositories for leaked API keys, tokens, and sensitive secrets."
+readme = "README.md"
+authors = [{ name = "Milind Chatrabhuji", email = "milind.chatrabhuji@gmail.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
